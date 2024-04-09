@@ -47,6 +47,7 @@ header .text {
 
 .text:hover>i {
     transform: translateX(5px);
+    transition: 150ms all linear;
 
 
 
