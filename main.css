@@ -1,0 +1,102 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+}
+
+.common-container {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.common-container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header h3 {
+    color: #2D3192;
+    font-size: 30px;
+}
+
+header .text {
+    margin: 20px;
+    border-radius: 8px;
+    border: 1.7px solid rgb(181, 181, 181);
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    width: 110px;
+    height: 30px;
+    align-items: center;
+
+}
+
+.text:hover>i {
+    transform: translateX(5px);
+
+
+
+}
+
+.text:hover {
+    border-color: orange;
+}
+
+
+.text i {
+    color: orange;
+}
+
+.container {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.card {
+    background-color: white;
+    padding: 8px;
+    cursor: pointer;
+    transition: 150ms all linear;
+    width: 260px;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.card--image {
+    height: 130px;
+    overflow: hidden;
+    border-radius: 14px;
+    display: block;
+}
+
+.card--image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 150ms all linear;
+
+}
